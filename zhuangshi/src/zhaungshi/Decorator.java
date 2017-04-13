@@ -10,7 +10,6 @@ package zhaungshi;
  *
  */
 public abstract class Decorator implements Person {
-
 	protected Person person;//这个属性的注入，这里是采用了set注入的方法，也可以建个构造方法进行
 	//注入，不过感觉没有使用setPerson()方便
 	public void setPerson(Person person) {
